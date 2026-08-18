@@ -17,7 +17,7 @@
 	advcrosshair 			1
 	supportsvr				0
 	ReplayRequired 			1
-	icon					"resource/tf_medallium"
+	icon					"resource/game"
 
 	DependsOnAppID 			440
 
