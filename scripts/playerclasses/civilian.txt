@@ -21,7 +21,7 @@ PlayerClass
 	"grenade2"		"TF_WEAPON_GRENADE_HEAL"
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_UMBRELLA"
+	"weapon1"		"TF_WEAPON_TFC_UMBRELLA"
 	
 	// Buildables
 	"buildable1"	"OBJ_RADAR"
