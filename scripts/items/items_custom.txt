@@ -5,7 +5,73 @@
 	"attributes"
 	{
 	}
-	
+	"prefabs"
+	{
+		"tf_weapon_tfc_umbrella"
+		{
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"base_item_name"	"TF_Weapon_TFC_Umbrella"
+			"enabled"	"1"
+			"item_class"	"tf_weapon_tfc_umbrella"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"item_type_name"	"#TFC_Umbrella"
+			"item_name"	"TFC_Umbrella"
+			"item_description" "#TF_Weapon_TFC_Umbrella_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"normal"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/weapons/c_models/c_umbrella"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"item_logname"	"umbrella"
+			"item_iconname"	"umbrella"
+			"model_player"	"models/weapons/v_models/v_umbrella_civilian.mdl"
+			"model_world"	"models/weapons/w_models/w_umbrella.mdl"
+			"inspect_panel_dist" "50"
+			"attach_to_hands" "2"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"static_attrs"
+			{
+				"item_meter_charge_type"						"1"
+				"item_meter_charge_rate"			"15"
+				"meter_label"							"Boost"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"51" 
+				}
+				"mod soldier buff type"
+				{
+					"attribute_class"	"set_buff_type"
+					"value"	"1"
+				}
+				"allowed in medieval mode"
+				{
+					"attribute_class"	"allowed_in_medieval_mode"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			//"particle_suffix"		"stickybomb_launcher"
+		}
+	}
 	"items"
 	{
 		"21000"
@@ -68,19 +134,12 @@
 		}
 		"21001"
 		{
-			"name"				"TFC_Umbrella"
-			"moditem"			"1"
-			"item_class"		"tf_weapon_tfc_umbrella"
-			"item_name"			"#TF_Weapon_TFC_Umbrella"
-			"item_description"	"#TF_Weapon_TFC_Umbrella_Desc"
-			"item_logname"		"umbrella"
-			"item_quality"		"normal"
-			"item_slot"			"melee"
-			"model_player"		"models/weapons/w_models/w_umbrella.mdl"
-			"used_by_classes"
-			{
-				"civilian"		"1"
-			}
+			"name"	"TFC_Umbrella"
+			"first_sale_date"	"2010/09/29"
+			"prefab"	"tf_weapon_tfc_umbrella"
+			"moditem" "1"
+			//"baseitem" "1"
+			//commented out because this breaks all other melees somehow 
 		}
 	}
 }
