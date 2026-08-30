@@ -87,7 +87,6 @@ Glorified Toaster with Legs
 PUSH THE CART!
 Nope.avi
 Schadenfreude
-Ze Healing Is Not As Rewarding As Ze Hurting
 MEDIC!
 Put Spencer Here
 Spy's Sappin' My Sentry
@@ -95,12 +94,11 @@ DOMINATED!
 Need a Dispenser Here
 Holy Moly
 Yer Doin' Good Lad!
-Wave Goodbye to Yer Kneecaps
 Freeman's Mind
 Half-Life 3 Confirmed
-The Right Man in the Wrong Place
+The Right Man
+The Wrong Place
 Pick Up That Can
-Now Put It In The Trash Can
 Freeman You Fool
 Average_Medal_Hater
 Common_Sheetmetal_Lover
@@ -132,7 +130,6 @@ Interloper
 Umbrella Man
 JonyDany12
 Serverblight
-makes me wanna merge without looking
 God help us all
 Works On My Machine (TM)
 Ohio Final Boss
