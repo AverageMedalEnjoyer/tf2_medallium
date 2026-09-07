@@ -20,6 +20,7 @@
 			}
 			"base_item_name"	"TF_Weapon_TFC_Umbrella"
 			"enabled"	"1"
+            "baseitem"  "0"
 			"item_class"	"tf_weapon_tfc_umbrella"
 			"craft_class"	"weapon"
 			"craft_material_type"	"weapon"
@@ -137,7 +138,7 @@
 			"name"	"TFC_Umbrella"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"tf_weapon_tfc_umbrella"
-			"moditem" "1"
+            "baseitem"  "1" // THIS IS WHAT BREAKS IT
 		}
 	}
 }
