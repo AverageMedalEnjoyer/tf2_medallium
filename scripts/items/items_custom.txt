@@ -138,8 +138,6 @@
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"tf_weapon_tfc_umbrella"
 			"moditem" "1"
-			//"baseitem" "1"
-			//commented out because this breaks all other melees somehow 
 		}
 	}
 }
