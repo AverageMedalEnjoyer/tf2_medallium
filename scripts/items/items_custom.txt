@@ -20,12 +20,12 @@
 			}
 			"base_item_name"	"TF_Weapon_TFC_Umbrella"
 			"enabled"	"1"
-            "baseitem"  "0"
+		    "baseitem"  "1"
 			"item_class"	"tf_weapon_tfc_umbrella"
 			"craft_class"	"weapon"
 			"craft_material_type"	"weapon"
 			"item_type_name"	"#TFC_Umbrella"
-			"item_name"	"TFC_Umbrella"
+			"item_name"	"Umbrella"
 			"item_description" "#TF_Weapon_TFC_Umbrella_Desc"
 			"item_slot"	"melee"
 			"item_quality"	"normal"
@@ -33,7 +33,7 @@
 			"max_ilevel"	"1"
 			"image_inventory"	"backpack/weapons/c_models/c_umbrella"
 			"image_inventory_size_w"		"128"
-			"image_inventory_size_h"		"82"
+			"image_inventory_size_h"		"128"
 			"item_logname"	"umbrella"
 			"item_iconname"	"umbrella"
 			"model_player"	"models/weapons/v_models/v_umbrella_civilian.mdl"
@@ -138,7 +138,6 @@
 			"name"	"TFC_Umbrella"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"tf_weapon_tfc_umbrella"
-            "baseitem"  "1" // THIS IS WHAT BREAKS IT
 		}
 	}
 }
