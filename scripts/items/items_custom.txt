@@ -19,8 +19,8 @@
 				"can_deal_critical_damage"	"1"
 			}
 			"base_item_name"	"TF_Weapon_TFC_Umbrella"
+			"baseitem"  "1"
 			"enabled"	"1"
-		    "baseitem"  "1"
 			"item_class"	"tf_weapon_tfc_umbrella"
 			"craft_class"	"weapon"
 			"craft_material_type"	"weapon"
@@ -138,6 +138,203 @@
 			"name"	"TFC_Umbrella"
 			"first_sale_date"	"2010/09/29"
 			"prefab"	"tf_weapon_tfc_umbrella"
+		}
+
+		"21007"
+		{
+			"name"	"Quarter Zatoichi"
+			"item_class"	"tf_weapon_tfc_umbrella"
+			"moditem"		"1"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1" 
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_SoldierKatana"
+			"item_name"	"Quarter Zatoichi"
+			"item_description"	""
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_shogun_katana/c_shogun_katana"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_shogun_katana_civilian.mdl"
+			"model_world"	"models/weapons/w_models/w_shogun_katana_civilian.mdl"
+			"attach_to_hands"	"2"
+			"inspect_panel_dist" "40"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"static_attrs"
+			{
+				"item_meter_charge_type"						"1"
+				"item_meter_charge_rate"			"15"
+				"meter_label"							"Boost"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"51" 
+				}
+				"mod soldier buff type"
+				{
+					"attribute_class"	"set_buff_type"
+					"value"	"2"
+				}
+				"allowed in medieval mode"
+				{
+					"attribute_class"	"allowed_in_medieval_mode"
+					"value"	"1"
+				}
+				"is_a_sword"
+				{
+					"attribute_class"	"is_a_sword"
+					"value"				"72"
+				}
+				"decapitate type"
+				{
+					"attribute_class"	"decapitate_type"
+					"value"	"1"
+				}
+				"restore health on kill"
+				{
+					"attribute_class"	"restore_health_on_kill"
+					"value"	"50"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+				"honorbound"
+				{
+					"attribute_class"	"honorbound"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+		"21008"
+		{
+			"name"	"The Lollichop"
+			"prefab"	"valve"
+			"first_sale_date"	"2012/06/27"
+			"item_class"	"tf_weapon_fireaxe"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_logname"	"lollichop"
+			"item_iconname"	"lollichop"
+			"show_in_armory"	"1"
+			"item_type_name"	"#tf_weapon_fireaxe"
+			"item_name"	"#TF_Lollichop"
+			"item_description"	"#TF_Lollichop_Desc"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_lollichop/c_lollichop"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_lollichop/c_lollichop.mdl"
+			"model_vision_filtered"		"models/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"moditem"		"1"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"15 2 -12"				
+			}
+			"attributes"
+			{
+				"vision opt in flags"
+				{
+					"attribute_class"	"vision_opt_in_flags"
+					"value"				"1"
+				}
+				"pyrovision only DISPLAY ONLY"
+				{
+					"attribute_class"	"pyrovision_only_display"
+					"value"				"1"
+				}
+				"pyrovision opt in DISPLAY ONLY"
+				{
+					"attribute_class" 	"pyrovision_opt_in_display_only"
+					"value"		  		"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
+			"drop_sound"			"ui/item_mtp_drop.wav"
+		}
+		"21009"
+		{
+			"name"	"Crowbar"
+			"prefab"	"valve"
+			"first_sale_date"	"2012/06/27"
+			"item_class"	"tf_weapon_tfc_crowbar"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"moditem" "1"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_logname"	"crowbar"
+			"item_iconname"	"crowbar"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Crowbar"
+			"item_name"	"#FC_Weapon_Crowbar"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/w_models/w_ofcrowbar"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"model_player"	"models/weapons/v_models/v_crowbar_mercenary.mdl"
+			"model_world"	"models/weapons/w_models/w_crowbar.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"moditem"		"1"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"15 2 -12"				
+			}
+			"attributes"
+			{
+			}
+			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
+			"drop_sound"			"ui/item_mtp_drop.wav"
 		}
 	}
 }
