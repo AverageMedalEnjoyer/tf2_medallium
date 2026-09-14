@@ -21,10 +21,9 @@ PlayerClass
 	"grenade2"		"TF_WEAPON_GRENADE_HEAL"
 
 	// Weapons.
-	"weapon1"		"TF_WEAPON_UMBRELLA"
-	
-	// Buildables
-	"buildable1"	"OBJ_RADAR"
+    "weapon1"		"TF_WEAPON_REVOLVER"
+	"weapon2"		"TF_WEARABLE"			// Perks
+	"weapon3"		"TF_WEAPON_TFC_UMBRELLA"
 
 	//Thirdperson
 	"cameraoffset_forward"	"85"
@@ -33,8 +32,8 @@ PlayerClass
 	
 	AmmoMax
 	{
-		"tf_ammo_primary"	"20"
-		"tf_ammo_secondary"	"24"
+		"tf_ammo_primary"	"36"
+		"tf_ammo_secondary"	"36"
 		"tf_ammo_metal"		"200"
 		"tf_ammo_grenades1"	"1"
 		"tf_ammo_grenades2"	"1"

@@ -1,0 +1,57 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\v_revolver\v_tip_revolver"
+	
+	"$phongdisablehalflambert" "1"
+	"$phong" "1"
+	"$phongexponent" "15"
+	"$phongboost" "4"	
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"	"[1.5 .2 6]"
+
+	"$basemapalphaphongmask" "1"
+	
+	"$rimlight" "1"						
+	"$rimlightexponent" "20"				
+	"$rimlightboost" ".25"
+
+	"360?$color2" "[ 0.5 0.5 0.5 ]"
+
+	"$glowcolor" "1"
+
+	// Cloaking
+	"$cloakPassEnabled" "1"
+
+    "Proxies"
+    {
+        "ConVarEx"
+        {
+             "ConVar" "tf2c_player_nohalflambert"
+              "0"
+                {
+                     "$PhongDisableHalfLambert"  "0"
+                }
+               "1"
+               {
+                   "$PhongDisableHalfLambert"  "1"
+               }
+        }
+		"invis"
+		{
+		}
+		"ModelGlowColor"
+		{
+			"resultVar" "$glowcolor"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$selfillumtint"
+		}
+		"Equals"
+		{
+			"srcVar1"  "$glowcolor"
+			"resultVar" "$color2"
+		}
+	}
+}
