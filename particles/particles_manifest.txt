@@ -110,4 +110,5 @@ particles_manifest
 		"file"		"!particles/muzzle_flash_viewmodel.pcf"
 		"file"		"!particles/muzzle_flash_dx80.pcf"
 	// civilianbuff_* particles live inside soldierbuff.pcf (already listed above)
+		"file"		"!particles/blood_trail_fc.pcf"
 }
