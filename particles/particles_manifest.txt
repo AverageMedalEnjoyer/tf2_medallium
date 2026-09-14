@@ -109,6 +109,5 @@ particles_manifest
 	// --- FC / Medallium additions ---
 		"file"		"!particles/muzzle_flash_viewmodel.pcf"
 		"file"		"!particles/muzzle_flash_dx80.pcf"
-		"file"		"!particles/civilianbuff_red_buffed.pcf"
-		"file"		"!particles/civilianbuff_blue_buffed.pcf"
+	// civilianbuff_* particles live inside soldierbuff.pcf (already listed above)
 }

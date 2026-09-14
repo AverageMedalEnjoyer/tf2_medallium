@@ -1,0 +1,713 @@
+#base items_game.txt
+ 
+"items_game"
+{
+	"attributes"
+	{
+	}
+	"prefabs"
+	{
+		"tf_weapon_tfc_umbrella"
+		{
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"base_item_name"	"TF_Weapon_TFC_Umbrella"
+			"enabled"	"1"
+		    "baseitem"  "1"
+			"item_class"	"tf_weapon_tfc_umbrella"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"item_type_name"	"#TFC_Umbrella"
+			"item_name"	"Umbrella"
+			"item_description" "#TF_Weapon_TFC_Umbrella_Desc"
+			"item_slot"	"melee"
+			"item_quality"	"normal"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/weapons/c_models/c_umbrella"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"128"
+			"item_logname"	"umbrella"
+			"item_iconname"	"umbrella"
+			"model_player"	"models/weapons/v_models/v_umbrella_civilian.mdl"
+			"model_world"	"models/weapons/w_models/w_umbrella.mdl"
+			"inspect_panel_dist" "50"
+			"attach_to_hands" "2"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"static_attrs"
+			{
+				"item_meter_charge_type"						"1"
+				"item_meter_charge_rate"			"15"
+				"meter_label"							"Boost"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"51" 
+				}
+				"mod soldier buff type"
+				{
+					"attribute_class"	"set_buff_type"
+					"value"	"1"
+				}
+				"allowed in medieval mode"
+				{
+					"attribute_class"	"allowed_in_medieval_mode"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_heavy_gun_pickup.wav"
+			"drop_sound"		"ui/item_heavy_gun_drop.wav"
+			//"particle_suffix"		"stickybomb_launcher"
+		}
+	}
+	"items"
+	{
+		"21000"
+		{
+			"name"				"The Force-a-Testure"
+			"moditem"		"1"
+			"prefab"	         "valve weapon_force_a_nature"
+			"item_name"			"The Force-a-Testure"
+			"item_description"	"This is a test weapon."
+			"item_logname"		"testure"
+			"item_quality"		"unique"
+			"attributes"
+			{
+				"scattergun has knockback"
+				{
+					"attribute_class"	"set_scattergun_has_knockback"
+					"value"	"1"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value" "0.5"
+				}
+				"bullets per shot bonus"
+				{
+					"attribute_class"	"mult_bullets_per_shot"
+					"value"	"3.5"
+				}
+				"spread penalty"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"2"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value" "0.5"
+				}
+				"clip size penalty"
+				{
+					"attribute_class"	"mult_clipsize"
+					"value" "0.20"
+				}
+				"maxammo primary reduced"
+				{
+					"attribute_class" 	"mult_maxammo_primary"
+					"value" "0.35"
+				}
+				"scattergun no reload single"
+				{
+					"attribute_class"	"set_scattergun_no_reload_single"
+					"value"	"1"
+				}
+				"disable fancy class select anim"
+				{
+					"attribute_class"	"disable_fancy_class_select_anim"
+					"value"	"1"
+				}
+			}
+		}
+		"21001"
+		{
+			"name"	"TFC_Umbrella"
+			"first_sale_date"	"2010/09/29"
+			"prefab"	"tf_weapon_tfc_umbrella"
+		}
+		"21002"
+		{
+			"name"			"Civilian Ghostly Gibus"
+			"item_name"		"Civilian Ghostly Gibus"
+			"item_description"	"A ghostly gibus, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_slot"		"headbody"
+			"equip_region"	"hat"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/all_class/ghostly_gibus_%s.mdl"
+			}
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"economy1/items/ghostly_gibus"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"first_sale_date"	"2013/01/01"
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+		"21003"
+		{
+			"name"			"Civilian Potassium Bonnet"
+			"item_name"		"Civilian Potassium Bonnet"
+			"item_description"	"A potassium bonnet, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_slot"		"headbody"
+			"equip_region"	"hat"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/all_class/cc_summer2015_potassium_bonnett/cc_summer2015_potassium_bonnett_%s.mdl"
+			}
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"economy1/items/cc_summer2015_potassium_bonnett"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"128"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"first_sale_date"	"2015/08/12"
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		// ===== Civilian primaries (3) =====
+
+		"21004"
+		{
+			"enabled"	"1"
+			"baseitem"		"1"
+			"item_class"	"tf_weapon_revolver"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"base_item_name"	"Second Amendment"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Revolver"
+			"item_name"	"Second Amendment"
+			"item_description"		"Civilian is very inexperienced in using weapons due to him usually being protected by his proud bodyguards that he greatly underpays."
+			"item_slot"	"secondary"
+			"item_quality"	"normal"
+			"min_ilevel"	"1"
+			"max_ilevel"	"99"
+			"image_inventory"	"backpack/weapons/w_models/dm_revolver"
+			"model_world"	"models/weapons/w_models/w_revolver_dm.mdl"
+			"model_player"	"models/weapons/v_models/v_revolver_dm.mdl"
+			"attach_to_hands" "2"
+			"inspect_panel_dist" "31"
+			"used_by_classes"
+			{
+				"civilian"	"primary"
+			}
+			"attributes"
+			{
+				"mod see enemy health hidden"
+				{
+					"attribute_class"	"see_enemy_health"
+					"value"	"1"
+				}
+				"damage penalty HIDDEN"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"1.10"
+				}
+				"fire rate penalty HIDDEN"
+				{
+					"attribute_class" 	"mult_postfiredelay"
+					"value" "1.50"
+				}
+				"spread penalty hidden"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"1.50"
+				}
+				"Reload time increased hidden"
+				{
+					"attribute_class"	"mult_reload_time"
+					"value"	"1.50"
+				}
+				"single wep deploy time increased HIDDEN"
+				{
+					"attribute_class" 	"mult_single_wep_deploy_time"
+					"value"	"2"
+				}
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value" "10"
+				}
+			}
+			"static_attrs"
+			{
+				"weapon_stattrak_module_scale"			"0.497"
+				"min_viewmodel_offset"					"10 0 -6"
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+			"xifier_class_remap"	"weapon_revolver"
+			"particle_suffix"		"revolver"
+		}
+
+		"21005"
+		{
+			"enabled"	"1"
+			"item_class"	"tf_weapon_revolver"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"		"1"
+				"can_headshot"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"base_item_name"	"The Ambassador"
+			"item_type_name"	"#TF_Weapon_Revolver"
+			"item_name"	"#TF_Unique_Achievement_Revolver"
+			"item_slot"	"secondary"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"item_logname"	"ambassador"
+			"item_iconname"	"ambassador"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"image_inventory"	"backpack/weapons/c_models/c_ambassador/parts/c_ambassador_opt"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_world"	"models/weapons/w_models/w_ambassador_civ.mdl"
+			"model_player"	"models/weapons/v_ambassador_spy.mdl"
+			"attach_to_hands" "2"
+			"inspect_panel_dist" "32"
+			"used_by_classes"
+			{
+				"civilian"	"primary"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -6"
+			}
+			"attributes"
+			{
+				"mod see enemy health hidden"
+				{
+					"attribute_class"	"see_enemy_health"
+					"value"	"1"
+				}
+				"revolver use hit locations"
+				{
+					"attribute_class"	"set_weapon_mode"
+					"value"	"1"
+				}
+				"crit_dmg_falloff"
+				{
+					"attribute_class" 	"crit_dmg_falloff"
+					"value" "1"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value" "0.85"
+				}
+				"fire rate penalty HIDDEN"
+				{
+					"attribute_class" 	"mult_postfiredelay"
+					"value" "1.10"
+				}
+				"spread penalty"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"1.20"
+				}
+				"Reload time increased hidden"
+				{
+					"attribute_class"	"mult_reload_time"
+					"value"	"1.40"
+				}
+				"single wep deploy time increased HIDDEN"
+				{
+					"attribute_class" 	"mult_single_wep_deploy_time"
+					"value"	"2"
+				}
+				"mult_spread_scales_consecutive"
+				{
+					"attribute_class"	"mult_spread_scales_consecutive"
+					"value"	"1"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+				"civ weapon display"
+				{
+					"attribute_class"	"force_level_display"
+					"value"	"1"
+				}
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value"	"20"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot" "Weapon_Ambassador.Single"
+				"sound_burst" "Weapon_Ambassador.SingleCrit"
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+		}
+
+		"21006"
+		{
+			"name"	"Civ L'etranger Stranger"
+			"first_sale_date"	"2010/09/29"
+			"item_class"	"tf_weapon_revolver"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Revolver"
+			"item_name"	"The Stranger"
+			"item_slot"	"secondary"
+			"item_quality"	"unique"
+			"propername"	"0"
+			"item_logname"	"letranger"
+			"item_iconname"	"letranger"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"image_inventory"	"backpack/workshop/weapons/c_models/c_letranger/c_letranger"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"inspect_panel_dist" 			"32"
+			"model_world"	"models/weapons/w_models/w_letranger_civ.mdl"
+			"model_player"	"models/weapons/v_models/v_letranger_spy.mdl"
+			"attach_to_hands" "2"
+			"used_by_classes"
+			{
+				"civilian"	"primary"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -6"				
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+			"attributes"
+			{
+				"mod see enemy health hidden"
+				{
+					"attribute_class"	"see_enemy_health"
+					"value"	"1"
+				}
+				"minicritboost on kill"
+				{
+					"attribute_class"	"add_onkill_minicritboost_time"
+					"value" "5"
+				}
+				"weapon spread bonus"
+				{
+					"attribute_class"	"mult_spread_scale"
+					"value"	"0.70"
+				}
+				"fire rate bonus"
+				{
+					"attribute_class"	"mult_postfiredelay"
+					"value"	"0.6"
+				}
+				"damage penalty"
+				{
+					"attribute_class"	"mult_dmg"
+					"value"	"0.6"
+				}
+				"Reload time increased hidden"
+				{
+					"attribute_class"	"mult_reload_time"
+					"value"	"1.40"
+				}
+				"single wep deploy time increased HIDDEN"
+				{
+					"attribute_class" 	"mult_single_wep_deploy_time"
+					"value"	"2"
+				}
+				"civ weapon display"
+				{
+					"attribute_class"	"force_level_display"
+					"value"	"1"
+				}
+				"mod_recoil_angle"
+				{
+					"attribute_class"	"mod_recoil_angle"
+					"value"	"3"
+				}
+			}
+			"visuals"
+			{
+				"sound_single_shot"	"Weapon_Letranger.Single"
+				"sound_burst"	"Weapon_Letranger.SingleCrit"
+			}
+		}
+
+		// ===== Civilian melees (4) =====
+
+		"21007"
+		{
+			"name"	"Quarter Zatoichi"
+			"item_class"	"tf_weapon_tfc_umbrella"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1" 
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_SoldierKatana"
+			"item_name"	"Quarter Zatoichi"
+			"item_description"	""
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_shogun_katana/c_shogun_katana"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_shogun_katana_civilian.mdl"
+			"model_world"	"models/weapons/w_models/w_shogun_katana_civilian.mdl"
+			"attach_to_hands"	"2"
+			"inspect_panel_dist" "40"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"static_attrs"
+			{
+				"item_meter_charge_type"						"1"
+				"item_meter_charge_rate"			"15"
+				"meter_label"							"Boost"
+			}
+			"attributes"
+			{
+				"kill eater score type"
+				{
+					"attribute_class"	"kill_eater_score_type"
+					"value" 	"51" 
+				}
+				"mod soldier buff type"
+				{
+					"attribute_class"	"set_buff_type"
+					"value"	"2"
+				}
+				"allowed in medieval mode"
+				{
+					"attribute_class"	"allowed_in_medieval_mode"
+					"value"	"1"
+				}
+				"is_a_sword"
+				{
+					"attribute_class"	"is_a_sword"
+					"value"				"72"
+				}
+				"decapitate type"
+				{
+					"attribute_class"	"decapitate_type"
+					"value"	"1"
+				}
+				"restore health on kill"
+				{
+					"attribute_class"	"restore_health_on_kill"
+					"value"	"50"
+				}
+				"crit mod disabled"
+				{
+					"attribute_class"	"mult_crit_chance"
+					"value"	"0"
+				}
+				"honorbound"
+				{
+					"attribute_class"	"honorbound"
+					"value"	"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_knife_large_pickup.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+
+		"21008"
+		{
+			"name"	"The Lollichop"
+			"prefab"	"valve"
+			"first_sale_date"	"2012/06/27"
+			"item_class"	"tf_weapon_fireaxe"
+			"craft_class"	"weapon"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+			}
+			"item_logname"	"lollichop"
+			"item_iconname"	"lollichop"
+			"show_in_armory"	"1"
+			"item_type_name"	"#tf_weapon_fireaxe"
+			"item_name"	"#TF_Lollichop"
+			"item_description"	"#TF_Lollichop_Desc"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/c_models/c_lollichop/c_lollichop"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/c_models/c_lollichop/c_lollichop.mdl"
+			"model_vision_filtered"		"models/weapons/c_models/c_fireaxe_pyro/c_fireaxe_pyro.mdl"
+			"attach_to_hands"	"1"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"used_by_classes"
+			{
+				"pyro"	"1"
+				"civilian"	"1"
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"					"15 2 -12"				
+			}
+			"attributes"
+			{
+				"vision opt in flags"
+				{
+					"attribute_class"	"vision_opt_in_flags"
+					"value"				"1"
+				}
+				"pyrovision only DISPLAY ONLY"
+				{
+					"attribute_class"	"pyrovision_only_display"
+					"value"				"1"
+				}
+				"pyrovision opt in DISPLAY ONLY"
+				{
+					"attribute_class" 	"pyrovision_opt_in_display_only"
+					"value"		  		"1"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_mtp_pickup.wav"
+			"drop_sound"			"ui/item_mtp_drop.wav"
+		}
+
+		"21009"
+		{
+			"name"	"Merc Crowbar ALT2"
+			"prefab"	"weapon_melee_allclass"
+			"item_class"	"tf_weapon_tfc_crowbar"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_be_equipped_by_soldier_or_demo"	"1"
+			}
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Crowbar"
+			"item_name"	"#FC_Weapon_Crowbar"
+			"item_slot"	"melee"
+			"image_inventory"	"backpack/weapons/w_models/w_ofcrowbar"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"model_player"	"models/weapons/v_models/v_crowbar_mercenary.mdl"
+			"model_world"	"models/weapons/w_models/w_crowbar.mdl"
+			"attach_to_hands"	"2"
+			"inspect_panel_dist" "40"
+			"baseitem"		"0"
+			"item_logname"	"crowbar"
+			"item_iconname"	"crowbar"
+			"item_quality"	"unique"
+			"propername"	"1"
+			"min_ilevel"	"5"
+			"max_ilevel"	"5"
+			"used_by_classes"
+			{
+				"scout"		"1"
+				"soldier"	"1"
+				"demoman"	"1"
+				"civilian"	"1"
+				"agent"		"1"
+			}
+			"visuals"
+			{
+                "sound_melee_hit_world"	"Weapon_Crowbar_OF.HitWorld"
+				"sound_melee_miss"	"Weapon_Crowbar_OF.Miss"
+				"sound_melee_hit"	"Weapon_Crowbar_OF.HitFlesh"
+				"sound_burst"		"Weapon_Crowbar_OF.MissCrit"
+			}
+			"attributes"
+			{
+				"dmg bonus vs breakables"
+				{
+					"attribute_class"	"mult_dmg_vs_breakables"
+					"value" "2"
+				}
+			}
+			"static_attrs"
+			{
+				"min_viewmodel_offset"		"10 0 -7"
+			}
+			"mouse_pressed_sound"	"weapons/hl1/cbar_hit1.wav"
+			"drop_sound"		"ui/item_metal_weapon_drop.wav"
+		}
+	}
+}
