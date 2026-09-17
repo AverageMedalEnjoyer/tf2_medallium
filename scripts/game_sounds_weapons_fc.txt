@@ -1,0 +1,42 @@
+// FC civilian crowbar sounds (ported 1:1 from Old FC game_sounds_weapons_fc.txt)
+
+"Weapon_Crowbar_OF.Miss"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_64dB"
+	"volume"	".6"
+	"wave"		")weapons/hl1/cbar_miss1.wav"
+}
+
+"Weapon_Crowbar_OF.MissCrit"
+{
+	"channel"	"CHAN_WEAPON"
+	"soundlevel"	"SNDLVL_64dB"
+	"volume"	".6"
+	"wave"		")weapons/hl1/cbar_miss1_crit.wav"
+}
+
+"Weapon_Crowbar_OF.HitFlesh"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		"weapons/hl1/cbar_hitbod1.wav"
+		"wave"		"weapons/hl1/cbar_hitbod2.wav"
+		"wave"		"weapons/hl1/cbar_hitbod3.wav"
+	}
+}
+
+"Weapon_Crowbar_OF.HitWorld"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		"weapons/hl1/cbar_hit1.wav"
+		"wave"		"weapons/hl1/cbar_hit2.wav"
+	}
+}

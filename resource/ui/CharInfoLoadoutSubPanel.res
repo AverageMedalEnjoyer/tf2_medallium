@@ -24,10 +24,10 @@
 		
 		"class_ypos"				"40"
 		"class_xdelta"				"5"
-		"class_wide_min"			"60"
-		"class_wide_max"			"100"
-		"class_tall_min"			"120"
-		"class_tall_max"			"200"
+		"class_wide_min"			"54"
+		"class_wide_max"			"90"
+		"class_tall_min"			"108"
+		"class_tall_max"			"180"
 		"class_distance_min"		"7"
 		"class_distance_max"		"100"
 
@@ -262,6 +262,32 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
+	
+	"civilian"
+	{
+		"ControlName"		"ImageButton"
+		"fieldName"			"civilian"
+		"xpos"				"c228"
+		"ypos"				"120"
+		"zpos"				"6"
+		"wide"				"60"
+		"tall"				"120"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"Command"			"loadout civilian"
+		"Default"			"0"
+		"font"				"MenuKeys"
+		"scaleImage"		"1"
+		"activeimage"		"class_sel_sm_civilian_red"
+		"inactiveimage"		"class_sel_sm_civilian_inactive"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 	
 		"ShowBackpackButton"
 	{
