@@ -4,6 +4,50 @@
 {
 	"attributes"
 	{
+		"3019"
+		{
+			"name"	"mult umbrella buff duration positive"
+			"attribute_class"	"mult_umbrella_buff_duration"
+			"description_string"	"#Attrib_UmbrellaDuration_Positive"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"3020"
+		{
+			"name"	"mult umbrella buff duration negative"
+			"attribute_class"	"mult_umbrella_buff_duration"
+			"description_string"	"#Attrib_UmbrellaDuration_Negative"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"3021"
+		{
+			"name"	"mult umbrella buff recharge rate positive"
+			"attribute_class"	"mult_item_meter_charge_rate"
+			"description_string"	"#Attrib_UmbrellaRechargeRate_Positive"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"positive"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"3022"
+		{
+			"name"	"mult umbrella buff recharge rate negative"
+			"attribute_class"	"mult_item_meter_charge_rate"
+			"description_string"	"#Attrib_UmbrellaRechargeRate_Negative"
+			"description_format"	"value_is_percentage"
+			"hidden"	"0"
+			"effect_type"	"negative"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
 	}
 	"prefabs"
 	{
@@ -439,7 +483,7 @@
 			"propername" "1" 
 			"baseitem"	"1"
 			"show_in_armory"	"1"
-			"item_type_name"	"base item"
+			"item_type_name"	"perk"
 			"item_name"	"NO PERK"
 			"item_description"	""
 			"item_slot"	"secondary"
@@ -456,6 +500,102 @@
 			}
 			"attributes"
 			{
+			}
+		}
+		"21012"
+		{
+			"name"	"TF_WEAPON_CIV_MOREDURATIONSLOWERRECHARGE_PERK"
+			"first_sale_date"	"2012/12/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1" 
+			"moditem"	"1"
+			"show_in_armory"	"1"
+			"item_type_name"	"perk"
+			"item_name"	"More Duration, Slower Recharge"
+			"item_description"	""
+			"item_slot"	"secondary"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"attributes"
+			{
+				"mult umbrella buff duration positive"
+				{
+					"attribute_class"	"mult_umbrella_buff_duration"
+					"value" 	"6" 
+				}
+				"mult umbrella buff recharge rate negative"
+				{
+					"attribute_class"	"mult_item_meter_charge_rate"
+					"value" 	"0.4" 
+				}
+			}
+		}
+		"21013"
+		{
+			"name"	"TF_WEAPON_CIV_LESSDURATIONFASTERRECHARGE_PERK"
+			"first_sale_date"	"2012/12/20"
+			"prefab"	"valve base_misc"
+			"hidden"	"0"
+			"item_class"	"tf_wearable"
+			"craft_class"	"hat"
+			"craft_material_type"	"hat"
+			"capabilities"
+			{
+				"nameable"		"1"
+				"can_craft_count"	"1"
+				"can_craft_if_purchased"	"1"
+			}
+			"loadondemand" "1"
+			"propername" "1" 
+			"moditem"	"1"
+			"show_in_armory"	"1"
+			"item_type_name"	"perk"
+			"item_name"	"Less Duration, Faster Recharge"
+			"item_description"	""
+			"item_slot"	"secondary"
+			"equip_region"		"disconnected_floating_item"
+			"item_quality"	"unique"
+			"min_ilevel"	"20"
+			"max_ilevel"	"20"
+			"image_inventory"	"backpack/weapons/w_models/w_cigarette_case"
+			"image_inventory_size_w"		"128"
+			"image_inventory_size_h"		"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"attributes"
+			{
+				"mult umbrella buff duration negative"
+				{
+					"attribute_class"	"mult_umbrella_buff_duration"
+					"value" 	"-6" 
+				}
+				"mult umbrella buff recharge rate positive"
+				{
+					"attribute_class"	"mult_item_meter_charge_rate"
+					"value" 	"1.6" 
+				}
 			}
 		}
 	}
