@@ -70,6 +70,28 @@
 			"armory_desc"	"on_wearer"
 			"stored_as_integer"	"0"
 		}
+		"3025"
+		{
+			"name"	"maxammo primary override"
+			"attribute_class"	"maxammo_primary_override"
+			"description_string"	"unused"
+			"hidden"	"0"
+			"description_format"	"value_is_from_lookup_table"
+			"effect_type"	"neutral"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
+		"3026"
+		{
+			"name"	"maxammo secondary override"
+			"attribute_class"	"maxammo_secondary_override"
+			"description_string"	"unused"
+			"hidden"	"0"
+			"description_format"	"value_is_from_lookup_table"
+			"effect_type"	"neutral"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
 	}
 	"prefabs"
 	{
@@ -117,6 +139,60 @@
 			"particle_suffix"		"revolver"
 		}
 		
+		"weapon_civ_pistol"
+		{
+			"craft_class"	""
+			"baseitem"		"0"
+			"enabled"	"1"
+			"item_class"	"tf_weapon_pistol_primary"
+			"craft_material_type"	"weapon"
+			"capabilities"
+			{
+				"nameable"		"1"
+			}
+			"tags"
+			{
+				"can_deal_damage"			"1"
+				"can_deal_critical_damage"	"1"
+				"can_deal_mvm_penetration_damage"	"1"
+				"can_deal_long_distance_damage"	"1"
+			}
+			"base_item_name"	"TF_WEAPON_PISTOL"
+			"show_in_armory"	"1"
+			"item_type_name"	"#TF_Weapon_Pistol"
+			"item_name"	"#TF_Weapon_Pistol"
+			"item_description" "When you don't have enough ammo."
+			"item_slot"	"primary"
+			"item_quality"		"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"attach_to_hands"	"2"
+			"inspect_panel_dist" "31"
+			"image_inventory"	"backpack/weapons/c_models/c_pistol"
+			"model_player"	"models/weapons/v_models/v_pistol_civilian.mdl"
+			"model_world"	"models/weapons/w_models/w_pistol_civ.mdl"
+			"used_by_classes"
+			{
+				"civilian"    "1"
+			}
+			"static_attrs"
+			{
+				"weapon_stattrak_module_scale"			"0.723"
+				"min_viewmodel_offset"				"10 0 -10"
+			}
+			"attributes"
+			{
+				"maxammo secondary override"
+				{
+					"attribute_class"	"maxammo_secondary_override"
+					"value"	"360"
+				}
+			}
+			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
+			"drop_sound"		"ui/item_light_gun_drop.wav"
+			"particle_suffix"		"pistol"
+		}
+		
 		"tf_weapon_umbrella"
 		{
 			"capabilities"
@@ -136,7 +212,7 @@
 			"craft_material_type"	"weapon"
 			"item_type_name"	"#Umbrella"
 			"item_name"	"Umbrella"
-			"item_description" "#TF_Weapon_Umbrella_Desc"
+			"item_description" "Tally-ho, lads!"
 			"item_slot"	"melee"
 			"item_quality"	"normal"
 			"min_ilevel"	"1"
@@ -255,7 +331,7 @@
 			"show_in_armory"	"1"
 			"item_type_name"	"#TF_Weapon_SoldierKatana"
 			"item_name"	"The Quarter-Zatoichi"
-			"item_description"	""
+			"item_description" "Sun Tzu said that!"
 			"item_slot"	"melee"
 			"image_inventory"	"backpack/workshop_partner/weapons/c_models/c_shogun_katana/c_shogun_katana"
 			"image_inventory_size_w"		"128"
@@ -473,7 +549,7 @@
 			"craft_material_type"	"weapon"
 			"item_type_name"	"#TF_Weapon_Revolver"
 			"item_name"	"#TF_Weapon_Revolver"
-			"item_description" "Civilian is very inexperienced in using weapons due to him usually being protected by his proud bodyguards that he greatly underpays."
+			"item_description" "A rich man must value the instrument that will protect his riches from the poor!"
 			"item_slot"	"primary"
 			"item_quality"	"normal"
 			"baseitem" "1"
@@ -625,6 +701,13 @@
 					"value" 	"0.5" 
 				}
 			}
+		}
+		"21014"
+		{
+			"name"	"TF_WEAPON_CIV_PISTOL"
+			"first_sale_date"	"2012/12/20"
+			"prefab"	"weapon_civ_pistol"
+			"moditem"	"1"
 		}
 	}
 }
