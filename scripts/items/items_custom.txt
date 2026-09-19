@@ -59,6 +59,17 @@
 			"armory_desc"	"on_wearer"
 			"stored_as_integer"	"0"
 		}
+		"3024"
+		{
+			"name"	"altfire boosts teammates reflect"
+			"attribute_class"	"altfire_boosts_teammates"
+			"description_string"	"#Attrib_AltfireBoostsTeammate_Reflect"
+			"description_format"	"value_is_additive"
+			"hidden"	"0"
+			"effect_type"	"neutral"
+			"armory_desc"	"on_wearer"
+			"stored_as_integer"	"0"
+		}
 	}
 	"prefabs"
 	{
@@ -230,7 +241,7 @@
 
 		"21007"
 		{
-			"name"	"Quarter Zatoichi"
+			"name"	"Quarter-Zatoichi"
 			"item_class"	"tf_weapon_umbrella"
 			"moditem"		"1"
 			"capabilities"
@@ -261,12 +272,20 @@
 			{
 				"civilian"	"1"
 			}
+			"visuals"
+			{
+		        "sound_melee_miss"		"Weapon_Katana.Miss"
+		        "sound_melee_hit"		"Weapon_Katana.HitFlesh"
+		        "sound_melee_hit_world"	"Weapon_Katana.HitWorld"
+		        "sound_burst"			"Weapon_Katana.MissCrit"
+		        "sound_deploy"		    "Weapon_Katana.Draw"
+			}
 			"attributes"
 			{
-				"altfire boosts teammates minicrits"
+				"altfire boosts teammates reflect"
 				{
 					"attribute_class"	"altfire_boosts_teammates"
-					"value" 	"1" 
+					"value" 	"2" 
 				}
 				"allowed in medieval mode"
 				{
@@ -286,7 +305,7 @@
 				"restore health on kill"
 				{
 					"attribute_class"	"restore_health_on_kill"
-					"value"	"50"
+					"value"	"30"
 				}
 				"crit mod disabled"
 				{

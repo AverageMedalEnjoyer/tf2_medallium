@@ -1,0 +1,25 @@
+// GAME_SOUNDS_PLAYER_TF2M
+
+// TEAMMATE BOOST
+"TeammateBoost.MiniCrits"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		"player/teammate_boost_minicrits.mp3"
+	}
+}
+
+"TeammateBoost.Reflect"
+{
+	"channel"	"CHAN_ITEM"
+	"soundlevel"	"SNDLVL_NORM"
+	"volume"	"1.0"
+	"rndwave"
+	{
+		"wave"		"player/teammate_boost_reflect.mp3"
+	}
+}
+//
