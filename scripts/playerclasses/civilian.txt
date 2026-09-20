@@ -21,7 +21,7 @@ PlayerClass
 	"grenade2"		"TF_WEAPON_GRENADE_HEAL"
 
 	// Weapons.
-    "weapon1"		"TF_WEAPON_REVOLVER"
+	"weapon1"		"TF_WEAPON_REVOLVER"
 	"weapon2"		"TF_WEARABLE"			// Perks
 	"weapon3"		"TF_WEAPON_TFC_UMBRELLA"
 
