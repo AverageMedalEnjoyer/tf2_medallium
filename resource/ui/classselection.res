@@ -49,7 +49,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			""
+		"labelText"			"0"
 		"textAlignment"		"south-west"
 		"Command"			"select 10"
 		"Default"			"1"
