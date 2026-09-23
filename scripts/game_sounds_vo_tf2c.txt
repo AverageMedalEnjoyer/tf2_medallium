@@ -53,7 +53,7 @@
 // Player Deaths
 //-----------------------------------------------------------------------------
 
-"Civilian.Death"
+"TF_Civilian.Death"
 {
 	"channel"		"CHAN_VOICE"
 	"volume"		"VOL_NORM"
@@ -70,7 +70,7 @@
 	}
 }
 
-"Civilian.CritDeath"
+"TF_Civilian.CritDeath"
 {
 	"channel"		"CHAN_VOICE"
 	"volume"		"VOL_NORM"
@@ -90,7 +90,7 @@
 	}
 }
 
-"Civilian.MeleeDeath"
+"TF_Civilian.MeleeDeath"
 {
 	"channel"		"CHAN_VOICE"
 	"volume"		"VOL_NORM"
@@ -110,7 +110,7 @@
 	}
 }
 
-"Civilian.ExplosionDeath"
+"TF_Civilian.ExplosionDeath"
 {
 	"channel"		"CHAN_VOICE"
 	"volume"		"VOL_NORM"

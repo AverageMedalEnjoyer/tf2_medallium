@@ -572,7 +572,7 @@ criterion "WeaponIsPortalgun" "playerweapon" "tf_weapon_portalgun" "required"
 criterion "WeaponIsZombieClaw" "playerweapon" "tf_weapon_zombie_claw" "required"
 criterion "WeaponIsAntlionClaw" "playerweapon" "tf_weapon_antlion_claw" "required"
 criterion "WeaponIsCrowbar" "playerweapon" "tf_weapon_tfc_crowbar" "required"
-criterion "WeaponIsUmbrella" "playerweapon" "tf_weapon_tfc_umbrella" "required"
+criterion "WeaponIsUmbrella" "playerweapon" "tf_weapon_umbrella" "required"
 criterion "WeaponIsAR2" "playerweapon" "tf_weapon_ar2" "required"
 criterion "WeaponIsEnforcerGrenade" "playerweapon" "tf_weapon_lunchbox_grenade" "required"
 

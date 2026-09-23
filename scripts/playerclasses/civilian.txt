@@ -40,8 +40,8 @@ PlayerClass
 	}	
 
 	// Death Sounds
-	"sound_death"				"Civilian.Death"
-	"sound_crit_death"			"Civilian.CritDeath"
-	"sound_melee_death"			"Civilian.MeleeDeath"
-	"sound_explosion_death"			"Civilian.ExplosionDeath"	
+	"sound_death"				"TF_Civilian.Death"
+	"sound_crit_death"			"TF_Civilian.CritDeath"
+	"sound_melee_death"			"TF_Civilian.MeleeDeath"
+	"sound_explosion_death"			"TF_Civilian.ExplosionDeath"	
 }
