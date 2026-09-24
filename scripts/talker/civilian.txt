@@ -708,3 +708,43 @@ Rule CartMovingStoppedOffenseCivilian
 //--------------------------------------------------------------------------------------------------------------
 // END OF Auto Speech Cart
 //--------------------------------------------------------------------------------------------------------------
+
+// Civilian
+//------------------------------------------------------------------------------------------------------------
+	Response "CivilianTauntMelee"
+	{
+		scene "scenes/player/civilian/low/taunt01.vcd"
+	}
+	response "CivilianTauntHalloween"
+	{
+		scene "scenes/player/civilian/low/taunt06.vcd"
+	}
+	response "CivilianTauntSandvich"
+	{
+		scene "scenes/player/shared/low/taunt_sandvich.vcd"
+	}
+	
+	Rule CivilianTauntPlayerMelee
+	{
+		criteria ConceptPlayerTaunt IsCivilian WeaponIsUmbrella
+		response CivilianTauntMelee
+	}
+	rule CivilianTauntHalloween
+	{
+		criteria ConceptPlayerTaunt IsCivilian IsHalloweenTaunt
+		response CivilianTauntHalloween
+	}	
+
+	rule CivilianTauntSandvich
+	{
+		criteria ConceptPlayerTaunt IsCivilian WeaponIsSandvich
+		response CivilianTauntSandvich
+	}	
+
+	rule CivilianTauntLunchboxGeneric
+	{
+		criteria ConceptPlayerTaunt IsCivilian WeaponIsNotSandvich WeaponIsLunchbox
+		response CivilianTauntSandvich
+	}
+
+//============================================================================================================
