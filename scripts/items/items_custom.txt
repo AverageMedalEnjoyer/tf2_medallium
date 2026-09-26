@@ -379,6 +379,65 @@
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"	"ui/item_light_gun_drop.wav"
 		}
+		"21002"
+		{
+			"name"			"Civilian Ghostly Gibus"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Ghostly Gibus"
+			"item_description"	"A ghostly gibus, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/all_class/ghostly_gibus_%s.mdl"
+			}
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"economy1/items/ghostly_gibus"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"first_sale_date"	"2013/01/01"
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21003"
+		{
+			"name"			"Civilian Potassium Bonnet"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Potassium Bonnet"
+			"item_description"	"A potassium bonnet, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player_per_class"
+			{
+				"basename"	"models/player/items/all_class/cc_summer2015_potassium_bonnett/cc_summer2015_potassium_bonnett_%s.mdl"
+			}
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"economy1/items/cc_summer2015_potassium_bonnett"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"128"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"first_sale_date"	"2015/08/12"
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
 
 		"21007"
 		{
