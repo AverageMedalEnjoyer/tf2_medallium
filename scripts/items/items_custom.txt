@@ -379,6 +379,7 @@
 			"mouse_pressed_sound"	"ui/item_light_gun_pickup.wav"
 			"drop_sound"	"ui/item_light_gun_drop.wav"
 		}
+
 		"21002"
 		{
 			"name"			"Civilian Ghostly Gibus"
@@ -434,6 +435,58 @@
 				"civilian"	"1"
 			}
 			"first_sale_date"	"2015/08/12"
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21015"
+		{
+			"name"			"Civilian Idiot Box"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Idiot Box"
+			"item_description"	"An idiot box, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player"	"models/player/items/soldier/hwn_soldier_hat.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/player/items/soldier/hwn_soldier_hat"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21016"
+		{
+			"name"			"Civilian Headcrab Head Cap"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Headcrab Head Cap"
+			"item_description"	"Mod by Nullpoint. A headcrab, fitted for the civilian."
+			"item_type_name"	"Level 1 Friendo"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player"	"models/workshop/player/items/all_class/headcrab/hw2013_the_magical_mercenary_sniper.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/workshop/player/items/all_class/headcrab/headcrab"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
 			"drop_type"	"drop"
 			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
 			"drop_sound"		"ui/item_hat_drop.wav"
