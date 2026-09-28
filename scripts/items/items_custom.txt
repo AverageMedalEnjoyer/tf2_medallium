@@ -492,6 +492,245 @@
 			"drop_sound"		"ui/item_hat_drop.wav"
 		}
 
+		"21017"
+		{
+			"name"			"Civilian Horseless Headless Horseman's Head"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Horseless Headless Horseman's Head"
+			"item_description"	"A horseless headless horseman's head, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_slot"		"head"
+			"equip_region"	"whole_head"
+			"model_player"	"models/player/items/all_class/pumpkin_hat_heavy.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/player/items/all_class/pumpkin_hat"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21018"
+		{
+			"name"			"Civilian Soldier's Helmet"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Soldier's Helmet"
+			"item_description"	"A soldier's helmet, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Apparel"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player"	"models/player/items/all_class/soldier_helmet_engineer.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/workshop/player/items/all_class/soldiershelmet/soldiershelmet"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21019"
+		{
+			"name"			"Civilian Wide-Brimmed Bandito"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Wide-Brimmed Bandito"
+			"item_description"	"A wide-brimmed bandito, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player"	"models/workshop/player/items/engineer/hwn2016_wide_brimmed_bandito/hwn2016_wide_brimmed_bandito.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/workshop/player/items/engineer/hwn2016_wide_brimmed_bandito/hwn2016_wide_brimmed_bandito"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21020"
+		{
+			"name"			"Civilian Cabinet Mann"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Cabinet Mann"
+			"item_description"	"A cabinet mann, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_ArcadeMachine"
+			"item_slot"		"head"
+			"equip_region"
+			{
+				"whole_head"	"1"
+				"head_skin"	"1"
+			}
+			"holiday_restriction"	"halloween_or_fullmoon"
+			"model_player"	"models/workshop/player/items/engineer/hwn2022_cabinet_mann/hwn2022_cabinet_mann.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/workshop/player/items/engineer/hwn2022_cabinet_mann/hwn2022_cabinet_mann"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21021"
+		{
+			"name"			"Civilian B.M.O.C."
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian B.M.O.C."
+			"item_description"	"A festive santa hat, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Holiday_Hat"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player"	"models/player/items/all_class/xms_santa_hat_engineer.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/player/items/all_class/xms_santa_hat_demo"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21022"
+		{
+			"name"			"Civilian Caws of Death"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Caws of Death"
+			"item_description"	"A spooky companion, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Hat"
+			"item_slot"		"misc"
+			"equip_region"	"disconnected_floating_item"
+			"model_player"	"models/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death_engineer.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/workshop/player/items/all_class/hw2013_the_caws_of_death/hw2013_the_caws_of_death"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21023"
+		{
+			"name"			"Civilian Data Mining Light"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Data Mining Light"
+			"item_description"	"A data mining light, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Helmet"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player"	"models/workshop/player/items/engineer/robo_engineer_mining_light/robo_engineer_mining_light.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/workshop/player/items/engineer/robo_engineer_mining_light/robo_engineer_mining_light"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_default_pickup.wav"
+			"drop_sound"		"ui/item_default_drop.wav"
+		}
+
+		"21024"
+		{
+			"name"			"Civilian Breadcrab"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Breadcrab"
+			"item_description"	"A breadcrab, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Bread"
+			"item_slot"		"head"
+			"equip_region"	"hat"
+			"model_player"	"models/workshop/player/items/all_class/sum20_breadcrab/sum20_breadcrab_heavy.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/workshop/player/items/all_class/sum20_breadcrab/sum20_breadcrab"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
+		"21025"
+		{
+			"name"			"Civilian Botler 2000"
+			"item_class"		"tf_wearable"
+			"moditem"		"1"
+			"item_name"		"Civilian Botler 2000"
+			"item_description"	"A botler 2000, fitted for the civilian."
+			"item_type_name"	"#TF_Wearable_Butler"
+			"item_slot"		"misc"
+			"equip_region"	"disconnected_floating_item"
+			"model_player"	"models/workshop/player/items/all_class/sum24_botler_2000_style1/sum24_botler_2000_style1_spy.mdl"
+			"item_quality"	"unique"
+			"min_ilevel"	"1"
+			"max_ilevel"	"1"
+			"image_inventory"	"backpack/workshop/player/items/all_class/sum24_botler_2000_style1/sum24_botler_2000_style1"
+			"image_inventory_size_w"	"128"
+			"image_inventory_size_h"	"82"
+			"used_by_classes"
+			{
+				"civilian"	"1"
+			}
+			"drop_type"	"drop"
+			"mouse_pressed_sound"	"ui/item_hat_pickup.wav"
+			"drop_sound"		"ui/item_hat_drop.wav"
+		}
+
 		"21007"
 		{
 			"name"	"Quarter-Zatoichi"
