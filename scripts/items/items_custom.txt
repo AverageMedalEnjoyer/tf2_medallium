@@ -1,7 +1,12 @@
 #base items_game.txt
- 
+
 "items_game"
 {
+	"game_info"
+	{
+		"last_valid_class"	"10"
+		"num_item_presets"				"6"
+	}
 	"attributes"
 	{
 		"3019"
